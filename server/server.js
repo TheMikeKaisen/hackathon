@@ -32,7 +32,8 @@ const Role = db.role;
 require('dotenv').config();
 const mongoose = require('mongoose');
 
-const uri = process.env.ATLAS_URI;
+const uri = process.env.MONGO_URI;
+console.log( 'URI = ' , uri);
 mongoose.connect(uri, {
         useNewUrlParser: true,
         useUnifiedTopology: true
