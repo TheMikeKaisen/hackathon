@@ -80,6 +80,11 @@ function Navbar() {
                           <span>Blog</span>
                        </Link>     
               </li> 
+        <li className="nav-item">        
+                       <Link className="nav-link" underline="none" variant="subtitle2" component={Link} to="/dietChart">
+                          <span>Diet Chart</span>
+                       </Link>     
+              </li> 
               <li className="nav-item">        
                        <Link className="nav-link" underline="none" variant="subtitle2" component={Link} to="/team">
                           <span>About</span>
@@ -175,7 +180,13 @@ function Navbar() {
                        <Link className="nav-link" underline="none" variant="subtitle2" component={Link} to="/blog">
                           <span>Blog</span>
                        </Link>     
-              </li>           <li className="nav-item">        
+              </li>           
+                        <li className="nav-item">        
+                       <Link className="nav-link" underline="none" variant="subtitle2" component={Link} to="/dietChart">
+                          <span>DietChart</span>
+                       </Link>     
+              </li>           
+              <li className="nav-item">        
                        <Link className="nav-link" underline="none" variant="subtitle2" component={Link} to="/contact">
                           <span>Contact Us</span>
                        </Link>     

@@ -45,6 +45,7 @@
         "nodemailer": "^6.7.5",
         "nodeman": "^1.1.2",
         "on": "^1.3.0",
+        "openai": "^4.67.3",
         "request": "^2.88.2",
         "stripe": "^8.222.0",
         "superagent": "^7.1.3",

@@ -70,6 +70,7 @@ import AddBlog from './pages/doctor/add-blogs';
 import EditBlog from './pages/doctor/edit-blog';
 import BlogDetails from './pages/doctor/blog-details';
 import {default as Scanner} from './pages/doctor/symptoms';
+import DietChart from './pages/SubmitProblems/DietChart';
 // ----------------------------------------------------------------------
 
 export default function Router() {
@@ -83,6 +84,7 @@ export default function Router() {
                 { path: 'verification', element: currentUser && localStorage.getItem('role').match('doctor') ? < Navigate to = "/doctor/app" / > : currentUser && localStorage.getItem('role') === "patient" ? < Navigate to = "/patient/app" / > : < CardVerification / > },
                 { path: 'contact', element: < Contact / > },
                 { path: 'blog', element: < Blog / > },
+                { path: 'dietChart', element: < DietChart / > },
                 { path: 'shop', element: < Shop / > },
                 { path: 'team', element: < Team / > },
                 { path: 'price', element: < Price / > },
